@@ -1,0 +1,63 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    background-image: linear-gradient(
+      228.52deg,
+      rgba(111, 102, 102, 0.9) 4.71%,
+      rgba(16, 15, 15, 0.9) 39.77%,
+      rgba(16, 15, 15, 0.9) 44.21%
+    );
+  }
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.visually-hidden {
+  white-space: nowrap;
+  position: absolute;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+  width: 1px;
+}
