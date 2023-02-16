@@ -70,7 +70,7 @@
     color: var(--typical-color-text);
     border: 1px solid var(--typical-color-text);
     border-radius: 16px;
-    background-color: transparent;
+    background-color: var(--btn-bc);
     padding: 10px 33px;
     transition: color var(--transition-duration) var(--transition-timing-function), border-color var(--transition-duration) var(--transition-timing-function);
 
