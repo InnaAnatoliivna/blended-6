@@ -1,12 +1,12 @@
 :root {
-    --typical-first-font: "Roboto", sans-serif;
-    --typical-second-font: "Inter", sans-serif;
-    --typical-color-text: #f3f3f3;
-    --typical-pasive-color: rgba(188, 26, 26, 0.2);
-    --typical-active-color: rgba(188, 26, 26, 0.5);
-    --btn-bc:  #f3f3f3b9;
-    --backdrop-background-color: #C9C9C9;
-    --modal-background-color: #100F0F;
-    --transition-duration: 250ms;
-    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --typical-first-font: 'Roboto', sans-serif;
+  --typical-second-font: 'Inter', sans-serif;
+  --typical-color-text: #f3f3f3;
+  --typical-pasive-color: rgba(188, 26, 26, 0.2);
+  --typical-active-color: rgba(188, 26, 26, 0.718);
+  --btn-bc: #f3f3f3b9;
+  --backdrop-background-color: #c9c9c9;
+  --modal-background-color: #100f0f;
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
