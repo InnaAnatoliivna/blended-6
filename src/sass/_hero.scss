@@ -61,8 +61,7 @@
   border: none;
   border-radius: 16px;
 
-  transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
+  transition: background-color var(--transition-duration) var(--transition-timing-function);
 
   font-weight: 500;
   font-size: 30px;
@@ -124,7 +123,7 @@
 }
 
 .hero-right-container::before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -160,8 +159,7 @@
   background-color: transparent;
   transition: color var(--transition-duration) var(--transition-timing-function),
     border-color var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration)
-      var(--transition-timing-function);
+    background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .hero-link:is(:hover, :focus) {
