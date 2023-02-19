@@ -148,6 +148,17 @@
   }
   .footer-soc-link {
     /* fill: #F3F3F3; */
+    padding: 8px 10px 10px 8px;
+    border: 1px solid var(--typical-color-text);
+    color: var(--typical-color-text);
+    background-color: transparent;
+    border-radius: 16px;
+  }
+
+  .footer-soc-link:is(:hover, :focus) {
+    color: var(--typical-active-color);
+    background-color: var(--btn-bc);
+    border-color: var(--typical-active-color);
   }
   .footer-soc-icon {
     fill: #F3F3F3;
