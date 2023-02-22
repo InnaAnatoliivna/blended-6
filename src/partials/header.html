@@ -1,26 +1,52 @@
 <!--section-header-->
 <header class="header">
-    <div class="header-container container">
-      <nav class="header-navigation">
-        <svg class="header-logo-icon" width="32" height="32">
-          <use href="./images/hero_images/svg-icons.svg#icon-logo-icon"></use>
-        </svg>
-        <a href="" class="header-logo link">Cucina</a>
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="" class="header-link link current">Home</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Store</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Recipes</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Gallery</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="header-button btn" type="button">Contact us</button>
-    </div>
-  </header>
+  <div class="header-container container">
+     <div class="logo-box">
+          <img src="/src/images/header_images/icon-logo.svg" alt="">
+            <a href="" class="header-logo link">Cucina</a>
+     </div>
+    <nav class="header-navigation">
+      
+      <ul class="header-list list">
+        <li class="header-item">
+          <a href="" class="header-link link current">Home</a>
+        </li>
+        <li class="header-item">
+          <a href="" class="header-link link">Store</a>
+        </li>
+        <li class="header-item">
+          <a href="" class="header-link link">Recipes</a>
+        </li>
+        <li class="header-item">
+          <a href="" class="header-link link">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header-button btn" type="button">Contact us</button>
+    <button type="button" class="burger js-open-menu"><img class="burger-img" src="/src/images/header_images/icon-humburger.png" alt="./burger-menu"></button>
+
+  </div>
+  <div class="modal js-menu-container">
+    
+      <div class="container">
+        <div class="mod-box-1">
+          <div class="logo-box">
+            <a href=""><img src="/src/images/header_images/icon-logo.svg" alt=""></a>
+             <a class="icon-logo-mod link" href="">CUCINA</a>
+          </div>
+          <button class="close-btn js-close-menu" type="button"><a href=""><img src="/src/images/header_images/icon-close.svg" alt=""></a></button>
+        </div>
+        
+        <div class="mod-nav-box">
+          <ul class="mod-nav-list">
+            <li class="item"><a class="nav-mod-name" href="">Home</a></li>
+            <li class="item"><a class="nav-mod-name" href="">Store</a></li>
+            <li class="item"><a class="nav-mod-name" href="">Recipes</a></li>
+            <li class="item"><a class="nav-mod-name" href="">Gallery</a></li>
+          </ul>
+        </div>
+        <button class="mod-btn" type="button">Contact us</button>
+  </div >
+      
+  </div>
+</header>
