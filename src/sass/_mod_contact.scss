@@ -1,1 +1,79 @@
 // Modal contact desktop
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--modal-background-color);
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 250ms var(--transition-timing-function);
+  }
+
+  .modal.is-open{
+    transform: translateX(0);
+  }
+
+  .close-btn{
+    background-color: transparent;
+    border: none;
+  }
+
+  .icon-logo-mod{
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.25;
+color: var(--typical-color-text);
+padding-left: 20px;
+  }
+
+  .mod-box-1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+  }
+
+  .mod-nav-box{
+    padding-top: 44px;
+    
+  }
+
+.mod-nav-list{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+}
+
+  .mod-nav-list .item{
+    padding-top: 28px;
+    
+  }
+  .mod-nav-box .item:first-child{
+    padding-top: 0;
+  }
+
+  .nav-mod-name{
+    font-weight: 600;
+font-size: 20px;
+line-height:1.2 ;
+color: var(--typical-color-text);
+text-decoration: none;
+  }
+
+  .mod-btn{
+    font-weight: 800;
+font-size: 16px;
+line-height: 1.25;
+color: var(--typical-color-text);
+background-color: transparent;
+border: 1px solid #F3F3F3;
+border-radius: 16px;
+width: 160px;
+height: 40px;
+margin-left: 112px;
+margin-top: 40px;
+  }
